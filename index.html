@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- https://www.youtube.com/watch?v=G3e-cpL7ofc (this video was very helpful in allowing me to learn how to do the intermediate/advanced CSS formatting and some HTML stuff that I didn't already know.)  -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecotown</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="homepage">
+    <div class="bgblur"></div>
+    <div class="bgoverlay"></div>
+
+    <header class="navbar">
+        <div class="navleft">
+            <img src="logo.png" alt="EcoTown Logo" class="logo"/>
+            <span class="sitetitle">EcoTown</span>
+        </div>
+
+        <nav class="navlinks">
+            <a href="index.html" class="active">Home</a>
+            <a href="resources.html">Resources</a>
+            <a href="volunteering.html">Volunteering</a>
+            <a href="commons.html">Tragedy of the Commons</a>
+            <a href="about.html">About</a>
+        </nav>
+
+        <button id="themetoggle" class="navbutton">Toggle Dark Mode</button>
+    </header>
+
+        <main class="maincontent">
+        <section class="homeDesign">
+            <section class="titleintro">
+                <h1>Welcome to EcoTown</h1>
+                <p>Find resources, volunteering opportunities, and learn about your environmental impacts to improve your community impact!</p>
+            </section>
+
+            <section class="highlights">
+                <a href="resources.html" class="card featured">
+                <div class="featureTop">
+                    <span class="mainStart">Start here</span>
+                </div>
+                <h2>Resource Directory</h2>
+                <p>Visit our resources directory to find useful services nearby and/or in our state!</p>
+                </a>
+
+                <a href="volunteering.html" class="card">
+                <h2>Volunteering Opportunities</h2>
+                <p>Involve yourself with volunteering in our community to keep it going!</p>
+                </a>
+
+                <a href="commons.html" class="card">
+                <h2>Tragedy of the Commons</h2>
+                <p>Learn about how we degrade limited resources and what we can do to stop it.</p>
+                </a>
+
+                <a href="about.html" class="card">
+                <h2>About EcoTown</h2>
+                <p>Learn about the purpose of the EcoTown website and what we do!</p>
+                </a>
+            </section>
+        </section>
+    </main>
+
+        <footer class="footer">
+    <p>© EcoTown 2026</p>
+</footer>
+
+<script src="script.js" defer></script>
+</body>
+</html>
